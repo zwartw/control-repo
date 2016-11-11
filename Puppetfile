@@ -46,8 +46,12 @@ mod "puppet/archive", :latest
 # mod 'puppetlabs/mongodb', :latest
 
 # Used by profile::sudo::sudoers
-# mod 'saz/sudo', :3.1.0
+#mod 'saz/sudo', :3.1.0
 
 # Used by profile::vagrant
 mod 'unibet/vagrant', :latest
 
+# My own stuff
+mod'zwartw/basics',
+  :git => 'https://github.com/zwartw/basics',
+  :branch => 'master'

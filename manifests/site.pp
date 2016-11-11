@@ -78,3 +78,6 @@ if versioncmp($::puppetversion, '4.0.0') >= 0 {
   include ::puppet::profile::upgradeto4
 }
 
+node 'trantor.rmasede.grma.net' {
+   include roles::basics
+}
